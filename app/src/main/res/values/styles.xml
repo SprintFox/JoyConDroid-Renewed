@@ -1,13 +1,44 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/switch_logo_bg</item>
         <item name="colorPrimaryDark">@color/dark_red</item>
         <item name="colorAccent">@color/switch_logo_bg</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent</item>
+
+        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
+
+    </style>
+
+    <style name="ShapeAppearance.MyApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
     </style>
 
     <style name="MenuTextAppearance">
         <item name="android:ellipsize">end</item>
     </style>
+
+    <style name="Widget.App.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+
+
+    </style>
+
+
+
 </resources>

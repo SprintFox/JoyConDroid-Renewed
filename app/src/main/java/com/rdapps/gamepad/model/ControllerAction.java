@@ -27,6 +27,22 @@ public class ControllerAction implements Serializable {
     private int yAxis;
     private int yDirection;
 
+    public void setXAxis(Integer axis) {
+    }
+
+    public void setXDirection(int maxedAxis) {
+    }
+
+    public void setYAxis(Integer axis) {
+    }
+
+    public void setYDirection(int maxedAxis) {
+    }
+
+    public Integer getYAxis() {
+        return 0;
+    }
+
     public enum Type {
         BUTTON,
         AXIS,

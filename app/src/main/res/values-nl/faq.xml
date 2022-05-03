@@ -2,7 +2,7 @@
     <string-array name="questions">
         <item>Werkt Joy-Con Droid op mijn telefoon?</item>
         <item>Kun je Joy-Con Droid laten werken op mijn telefoon?</item>
-        <item>Kan Joy-Con Droid schade toebrengen aan mijn Switch?</item>
+        <item>Kan Joy-Con Droid schade toebrengen aan mijn Nintendo Switch?</item>
         <item>Wat moet ik doen als Joy-Con Droid de verbinding verbreekt zodra ik speelstijl/volgorde verlaat?</item>
         <item>wat moet ik doen als Joy-Con Droid geen verbindings verzoek krijgt?</item>
         <item>Wat moet ik doen als er invoervertraging is?</item>
@@ -56,7 +56,7 @@
             Als <b>Joy-Con Droid</b> geen verbindings verzoek terwijl je op <b>verander speelstijl/volgorde</b> scherm zit. Er zijn een paar controles die u moet doen. Controleer of uw apparaat het gewenste heeft
             apparaatnaam voor bluetooth zoals Joy-Con (R), Joy-Con (L) of Pro Controller.
             Als de apparaatnaam correct is ingesteld. Sluit de applicatie en klik op notificatie om de te doden
-            onderhoud. Ga naar instellingen en kies de optie controllers loskoppelen op je Switch.
+            onderhoud. Ga naar instellingen en kies de optie controllers loskoppelen op je Nintendo Switch.
             Schakel de bluetooth uit. (Mogelijk wilt u uw Android-apparaat opnieuw opstarten). Zodra al deze stappen
             zijn voltooid. Open het scherm <b> Verander speelstijd / volgorde </b> en open <b> Joy-Con Droid </b> en
             herhaal verbindingsstappen.
@@ -69,9 +69,9 @@
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con Droid</b> tested up to Switch Version <b>9.0.0</b>. There is no guarantee
-            <b>Joy-Con Droid</b> will continue you to work on higher versions of Switch firmware.
-            Please check <b>Joy-Con Droid</b> to see latest supported version before updating your Switch Version
+            <b>Joy-Con Droid</b> tested up to Nintendo Switch Version <b>9.0.0</b>. There is no guarantee
+            <b>Joy-Con Droid</b> will continue you to work on higher versions of Nintendo Switch firmware.
+            Please check <b>Joy-Con Droid</b> to see latest supported version before updating your Nintendo Switch Version
             firmware.
             ]]>
         </item>
@@ -92,7 +92,7 @@
         </item>
         <item>
             <![CDATA[
-            <b> Joy-Con en Pro Controller </b> sturen hun MAC-adres naar <b> Switch </b>. Deze informatie wordt gebruikt om opnieuw verbinding te maken. Hoe dan ook,
+            <b> Joy-Con en Pro Controller </b> sturen hun MAC-adres naar <b> Nintendo Switch </b>. Deze informatie wordt gebruikt om opnieuw verbinding te maken. Hoe dan ook,
             in <b>Android OS</b> het is niet mogelijk om toegang te krijgen tot het MAC-adres van een apparaat. De gebruiker kan ervoor kiezen om een ​​MAC-adres op te geven om de verbindingskwaliteit te verbeteren.
             ]]>
         </item>

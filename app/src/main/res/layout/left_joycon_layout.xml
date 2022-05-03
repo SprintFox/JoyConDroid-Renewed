@@ -33,7 +33,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="19">
 
-                <Button
+                <ImageButton
                     android:id="@+id/zl"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -47,7 +47,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/l"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -118,7 +118,7 @@
             android:layout_weight="0.2"
             android:orientation="vertical">
 
-            <Button
+            <ImageButton
                 android:id="@+id/minus"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -132,7 +132,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/sr"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -147,7 +147,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sync" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/sync"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -162,7 +162,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/sl"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -177,7 +177,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/minus" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/capture"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

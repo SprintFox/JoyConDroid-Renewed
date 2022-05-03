@@ -1,26 +1,57 @@
 <resources>
     <string name="app_name">JoyCon Droid</string>
     <string name="bt_not_available">Bluetooth ist nicht verfügbar/aktiviert.</string>
-    <string name="bt_enable_canceled">Konnte nicht Verbinden mit der Switch.</string>
-    <string name="bt_discovery_canceled">Ein Fehler ist bei der Suche nach der Switch Konsole aufgetreten.</string>
+    <string name="bt_enable_canceled">Konnte nicht Verbinden mit der Nintendo Switch.</string>
+    <string name="bt_discovery_canceled">Ein Fehler ist bei der Suche nach der Nintendo Switch Konsole aufgetreten.</string>
     <string name="could_not_pair"> Konnte nicht automatisch koppeln.</string>
-    <string name="pair_with_switch">Wollen sie mit der Switch verbinden</string>
+    <string name="pair_with_switch">Wollen sie mit der Nintendo Switch verbinden</string>
     <string name="sl_label">SL</string>
     <string name="sr_label">SR</string>
-    <string name="connected_to_switch">Mit der Switch verbunden!</string>
-    <string name="disconnected_from_switch">Die Verbindung mit der Switch wurde getrennt.</string>
+    <string name="connected_to_switch">Mit der Nintendo Switch verbunden!</string>
+    <string name="disconnected_from_switch">Die Verbindung mit der Nintendo Switch wurde getrennt.</string>
     <string name="left_joycon">Linker Joy-Con</string>
     <string name="user_guide">Anleitung</string>
     <string name="remove_ads">Werbung entfernen</string>
     <string name="revert_bluetooth">Bluetooth-Konfiguration wiederherstellen</string>
     <string name="bt_config_is_reverted">Die Bluetooth-Konfiguration wurde wiederhergestellt.</string>
     <string name="bt_config_was_not_changed">Die Bluetooth-Konfiguration wurde nicht verändert.</string>
+    <string-array name="explanations">
+<item>
+1. Öffne im Home-Menü der Nintendo Switch das Controller-Menü.
+</item>
+        <item>2. Wähle "Griffweise/Reihenfolge ändern".</item>
+        <item>3. Lass deine Switch im Sync-Modus.</item>
+        <item>
+4. Öffne in dieser App das Joy-Con-Menü und drücke den Sync-Knopf.
+</item>
+        <item>
+5. Bestätige, dein Gerät für andere sichtbar zu machen.
+</item>
+        <item>
+6. Warte, bis deine Switch sich verbindet.\n Es könnte sein, dass du die Schritte einige Male wiederholen musst, bis alles klappt.
+</item>
+        <item>
+7. Sobald die Switch eine Verbindungsanfrage sendet,\n warte bis das Joy-Con-Symbol so aussieht wie hier.
+</item>
+        <item>8. Drücke SL und SR ein paar Mal.</item>
+        <item>
+9. Sobald das Joy-Con-Symbol grau wird,\n drücke den Knopf um das Menü zu schließen.
+</item>
+        <item>
+10. Der Joy-Con sollte jetzt funktionieren!\n Sollte die Verbindung abbrechen, dann wiederhole die Schritte.
+</item>
+    </string-array>
     <string name="ads_removed">Werbung entfernt. Starte die App neu!</string>
     <string name="ads_not_removed">Werbung konnte nicht entfernt werden!</string>
     <string name="do_not_show_at_the_start_up">Anleitung nicht mehr beim Starten der App anzeigen</string>
     <string name="right_joycon">Rechter Joy-Con</string>
     <string name="pro_controller">Pro Controller</string>
     <string name="info_and_legal">Infos und Rechtshinweise</string>
+    <string name="info_and_disclaimer">
+<![CDATA[
+<body> <h2><span style="color:#000;">App-Info<span></h2> <br/> <p style="color:#888888;">JoyCon Droid (1.0.47) emuliert Joy-Con (L), Joy-Con (R) und den Pro Controller.</p> <br/> <p style="color:#888888;">Überprüfe für mehr Informationen bitte die Anleitung.</p> <p style="color:#888888;">Die App ist noch in der Alpha-Phase and funktioniert auf manchen Geräten nicht.</p> <br/> <p style="color:#888888;"> Hinweis: Diese App ist mit einigen der folgenden Android-Geräte nicht kompatibel: <ul style="color:#888888;"> <li style="color:#888888;">Sony</li> <li style="color:#888888;">Xiaomi</li> <li style="color:#888888;">LG</li> <li style="color:#888888;">OnePlus</li> <li style="color:#888888;">Huawei</li> </ul> </p> <br/> <p style="color:#888888;">Diese App steht in keinerlei Zusammenhang mit Nintendo.</p> <br/> <br/> <h2><span style="color:#000;">Wichtiger Hinweis<span></h2> <br/> <p style="color:#888888;">JoyCon Droid übernimmt keine Garantie oder Verantwortung für die Nutzung der App und mögliche Konsequenzen für dich oder dein Eigentum. Es liegt in der Verantwortung des Nutzers, die Risiken dieser oder ähnlicher Applikationen einzuschätzen.</p> <br/> <p style="color:#888888;">Der Entwickler von JoyCon Droid ist für keine Art der Verwendung dieses Programms verantwortlich.</p> <br/> </body>
+]]>
+</string>
     <string name="accept">Annehmen</string>
     <string name="bt_name_not_set">
 Bluetooth-Name konnte nicht geändert werden, er muss manuell geändert werden zu: %1$s

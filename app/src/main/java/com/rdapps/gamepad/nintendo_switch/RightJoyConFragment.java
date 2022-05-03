@@ -9,6 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -42,17 +43,17 @@ import static com.rdapps.gamepad.vibrator.VibrationPattern.STICK_RELEASE;
 
 public class RightJoyConFragment extends ControllerFragment implements JoyStick.JoyStickListener, View.OnClickListener {
 
-    private Button sr;
-    private Button sl;
-    private Button x;
-    private Button y;
-    private Button a;
-    private Button b;
-    private Button zr;
-    private Button r;
-    private Button plus;
-    private Button home;
-    private Button sync;
+    private ImageButton sr;
+    private ImageButton sl;
+    private ImageButton x;
+    private ImageButton y;
+    private ImageButton a;
+    private ImageButton b;
+    private ImageButton zr;
+    private ImageButton r;
+    private ImageButton plus;
+    private ImageButton home;
+    private ImageButton sync;
 
     private View led1;
     private View led2;
@@ -222,97 +223,97 @@ public class RightJoyConFragment extends ControllerFragment implements JoyStick.
     }
 
     @Override
-    public Button getSR() {
+    public ImageButton getSR() {
         return sr;
     }
 
     @Override
-    public Button getL() {
+    public ImageButton getL() {
         return null;
     }
 
     @Override
-    public Button getSL() {
+    public ImageButton getSL() {
         return sl;
     }
 
     @Override
-    public Button getX() {
+    public ImageButton getX() {
         return x;
     }
 
     @Override
-    public Button getY() {
+    public ImageButton getY() {
         return y;
     }
 
     @Override
-    public Button getA() {
+    public ImageButton getA() {
         return a;
     }
 
     @Override
-    public Button getB() {
+    public ImageButton getB() {
         return b;
     }
 
     @Override
-    public Button getZR() {
+    public ImageButton getZR() {
         return zr;
     }
 
     @Override
-    public Button getMinus() {
+    public ImageButton getMinus() {
         return null;
     }
 
     @Override
-    public Button getR() {
+    public ImageButton getR() {
         return r;
     }
 
     @Override
-    public Button getZL() {
+    public ImageButton getZL() {
         return null;
     }
 
     @Override
-    public Button getPlus() {
+    public ImageButton getPlus() {
         return plus;
     }
 
     @Override
-    public Button getHome() {
+    public ImageButton getHome() {
         return home;
     }
 
     @Override
-    public Button getCapture() {
+    public ImageButton getCapture() {
         return null;
     }
 
     @Override
-    public Button getLeft() {
+    public ImageButton getLeft() {
         return null;
     }
 
     @Override
-    public Button getRight() {
+    public ImageButton getRight() {
         return null;
     }
 
     @Override
-    public Button getUp() {
+    public ImageButton getUp() {
         return null;
     }
 
     @Override
-    public Button getDown() {
+    public ImageButton getDown() {
         return null;
     }
 
     @Override
-    public Button getSync() {
+    public ImageButton getSync() {
         return sync;
     }
 

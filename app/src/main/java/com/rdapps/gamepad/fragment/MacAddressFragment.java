@@ -75,10 +75,10 @@ public class MacAddressFragment extends Fragment implements ResetableSettingFrag
         View inflate = getLayoutInflater().inflate(R.layout.alert_bluetooth_address, null);
         final EditText macEditText = inflate.findViewById(R.id.macEditText);
         builder.setView(inflate);
-        builder.setNegativeButton(getText(R.string.clear), (e, w) -> {
-            PreferenceUtils.removeBluetoothAddress(context);
-            setMacAddressText();
-        });
+        //builder.setNegativeButton(getText(R.string.clear), (e, w) -> {
+        //    PreferenceUtils.removeBluetoothAddress(context);
+        //    setMacAddressText();
+        //});
         builder.setPositiveButton(getText(R.string.set), (e, w) -> {
             Editable editable = macEditText.getText();
             if (Objects.nonNull(editable)) {

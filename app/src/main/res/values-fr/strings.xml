@@ -15,12 +15,71 @@
     <string name="revert_bluetooth">Réinitialiser les paramètres Bluetooth</string>
     <string name="bt_config_is_reverted">La configuration Bluetooth a été réinitalisée!</string>
     <string name="bt_config_was_not_changed">La configuration Bluetooth n\'a pas été modifié.</string>
+
+    <string-array name="explanations">
+        <item>1. Rendez vous sur le menu des manettes sur la Nintendo Switch.</item>
+        <item>2. Touchez "Changer le style/ordre" dans le menu.</item>
+        <item>3. Laissez la Nintendo Switch sur le mode synchronisation.</item>
+        <item>4. Depuis cette application, allez sur le menu Joy-Con et appuyez sur le bouton synchronisation.</item>
+        <item>5. Autorisez votre téléphone à être détecté par d\'autres appareils.</item>
+        <item>6. Attendez que la Nintendo Switch débute la connection\n
+            Soyez patients. En cas d\'échec, il sera peut-être nécessaire de recommencer ces étapes.
+        </item>
+        <item>7. Une fois que la Nintendo Switch demande une autorisation de synchronisation,\n
+            attendez que le Joy-Con s\'affiche comme sur l\'image ci-dessous.
+        </item>
+        <item>8. Appuyez simultanément sur les boutons SL et SR plusieurs fois.</item>
+        <item>9. Une fois que le Joy-Con devient complètement gris,\n
+            appuyez sur le bouton bas et sortez du menu de synchronisation.
+        </item>
+        <item>
+            10. Maintenant, le Joy-Con devrait être complètement opérationnel.\n
+            S\'il se déconnecte, recommencez ces étapes.
+        </item>
+    </string-array>
+
     <string name="ads_removed">Les pubs ont étés retirées. Redémarrez l\'application.</string>
     <string name="ads_not_removed">Les pubs n\'ont pas pu être retirées!</string>
     <string name="do_not_show_at_the_start_up">Ne plus afficher le guide au démarrage</string>
     <string name="right_joycon">Joy-Con Droit</string>
     <string name="pro_controller">Manette Pro</string>
     <string name="info_and_legal">Informations juridiques</string>
+
+    <string name="info_and_disclaimer">
+        <![CDATA[
+            <body>
+            <h2><span style="color:#000;">Informations de l\'application<span></h2>
+            <br/>
+            <p style="color:#888888;">JoyCon Droid émule le Joy-Con droit, le Joy-Con gauche et la manette Pro.</p>
+            <br/>
+            <p style="color:#888888;">Lisez le guide d\'utilisation pour plus d\'informations.</p>
+            <p style="color:#888888;">Cette application étant en Alpha, il est possible qu\'elle ne fonctionne pas avec certains téléphones.</p>
+            <br/>
+            <p style="color:#888888;">
+                Note: Cette application n\'est pas compatible avec certains de ces appareils Android:
+                <ul style="color:#888888;">
+                    <li style="color:#888888;">Sony</li>
+                    <li style="color:#888888;">Xiaomi</li>
+                    <li style="color:#888888;">LG</li>
+                    <li style="color:#888888;">OnePlus</li>
+                    <li style="color:#888888;">Huawei</li>
+                </ul>
+            </p>
+            <br/>
+            <p style="color:#888888;">Cette application n\'est en aucun cas liée à Nintendo.</p>
+            <br/>
+            <br/>
+            <h2><span style="color:#000;">Avertissement<span></h2>
+            <br/>
+            <p style="color:#888888;">JoyCon Droid ne fournit en aucun cas une garantie, de manière implicite ou explicite, envers l\'utilisation
+			de cette application et ses possibles conséquences sur l\'utilisateur ou sa propriété. Il est de la responsabilité de l\'utilisateur de
+			prendre conscience des risques encourus en utilisant cette application ou une application similaire.</p>
+            <br/>
+            <p style="color:#888888;">Le développeur de JoyCon Droid ne peut en aucun cas être tenu responsable pour quelconque utilisation de cette application.</p>
+            <br/>
+            </body>
+        ]]>
+    </string>
     <string name="accept">Accepter</string>
     <string name="bt_name_not_set">Le nom du périphérique Bluetooth n\'a pas pu être changé. Il doit être changé manuellement pour %1$s</string>
     <string name="bt_sdp_failed">Les paramètres SDP ont échouées, contactez le développeur.</string>

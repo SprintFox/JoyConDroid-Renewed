@@ -15,12 +15,70 @@
     <string name="revert_bluetooth">Reimposta Configurazione Bluetooth</string>
     <string name="bt_config_is_reverted">La Configurazione Bluetooth è stata reimpostata!</string>
     <string name="bt_config_was_not_changed">La Configurazione Bluetooth non è stata modificata.</string>
+
+    <string-array name="explanations">
+        <item>1. Vai nel menu dei controller sulla Nintendo Switch.</item>
+        <item>2. Clicca su "Cambia impugnatura/Ordine".</item>
+        <item>3. Lascia la Switch in modalità di accoppiamento.</item>
+        <item>4. Vai nel menu JoyCon di questa app e premi il Sync Button.</item>
+        <item>5. Consenti al tuo telefono di essere trovato da altri dispositivi.</item>
+        <item>6. Aspetta che la Nintendo Switch inizi la connessione\n
+            Sii paziente ma potresti dover provare un paio di volte.
+        </item>
+        <item>7. Quando la Switch chiede l\'accoppiamento\n
+            aspetta fino a che non viene mostrata l\'icona JoyCon come sotto.
+        </item>
+        <item>8. Premi SL e SR un paio di volte.</item>
+        <item>9. Quando l\'icona diventa grigio pieno\n
+            premi il bottone giù ed esci dalla ricerca.
+        </item>
+        <item>
+            10. Adesso il JoyCon dovrebbe essere operativo\n
+            Se si disconnette ripeti questi step.
+        </item>
+    </string-array>
     <string name="ads_removed">Ads Rimossi Per Favore Riavvia l\'Applicazione</string>
     <string name="ads_not_removed">Gli ads non possono essere rimossi!</string>
     <string name="do_not_show_at_the_start_up">Non mostrare la guida all\'avvio</string>
     <string name="right_joycon">JoyCon Destro</string>
     <string name="pro_controller">Pro Controller</string>
     <string name="info_and_legal">Info And Legal</string>
+
+    <string name="info_and_disclaimer">
+        <![CDATA[
+            <body>
+            <h2><span style="color:#000;">App Info<span></h2>
+            <br/>
+            <p style="color:#888888;">JoyCon Droid emula Joy-Con Destro, Joy-Con Sinistro e Pro Controller.</p>
+            <br/>
+            <p style="color:#888888;">Per favore controlla la Guida Utente per maggiori informazioni.</p>
+            <p style="color:#888888;">Questa applicazione è ancora in alpha stage e non funziona su alcuni telefoni.</p>
+            <br/>
+            <p style="color:#888888;">
+                Attenzione: Questa applicazione non è compatibile con alcuni dei dispositivi di questi produttori:
+                <ul style="color:#888888;">
+                    <li style="color:#888888;">Sony</li>
+                    <li style="color:#888888;">Xiaomi</li>
+                    <li style="color:#888888;">LG</li>
+                    <li style="color:#888888;">OnePlus</li>
+                    <li style="color:#888888;">Huawei</li>
+                </ul>
+            </p>
+            <br/>
+            <p style="color:#888888;">Questa applicazione non è in alcun modo affiliata a Nintendo.</p>
+            <br/>
+            <br/>
+            <h2><span style="color:#000;">Disclaimer<span></h2>
+            <br/>
+            <p style="color:#888888;">JoyCon Droid non dà alcuna garanzia, esplicita o implicita, riguardo l\'uso dell\'applicazione e
+            le possibili conseguenze su di te o sulla tua proprietà. È responsabilità dell\'utente valutare i rischi dell\'utilizzo di questa
+            applicazione o applicazioni simili.</p>
+            <br/>
+            <p style="color:#888888;">Lo sviluppatore di JoyCon Droid non è in alcun modo o forma responsabile per l\'utilizzo di questa applicazione.</p>
+            <br/>
+            </body>
+        ]]>
+    </string>
     <string name="accept">Accetta</string>
     <string name="bt_name_not_set">Il nome del dispositivo Bluetooth non può essere modificato deve essere impostato manualmente a %1$s</string>
     <string name="bt_sdp_failed">Impostazioni SDP fallite contatta lo sviluppatore.</string>

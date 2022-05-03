@@ -6,6 +6,7 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -79,7 +81,7 @@ public class ControllerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if(!BuildConfig.VM) {
+        if (!BuildConfig.VM) {
             requestWindowFeature(Window.FEATURE_NO_TITLE);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -181,6 +183,16 @@ public class ControllerActivity extends AppCompatActivity {
     private void pair() {
         if (!mBluetoothAdapter.isEnabled()) {
             Intent enableIntent = new Intent(ACTION_REQUEST_ENABLE);
+            if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return;
+            }
             startActivityForResult(enableIntent, REQUEST_BT_ENABLE);
         } else {
             setupHIDService();
@@ -245,12 +257,32 @@ public class ControllerActivity extends AppCompatActivity {
 
 
     public void startHIDDeviceDiscovery() {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.BLUETOOTH_SCAN) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         if (mBluetoothAdapter.getScanMode() != SCAN_MODE_CONNECTABLE_DISCOVERABLE && !askingDiscoverable) {
             startDiscoverable(60);
         }
     }
 
     public void stopHIDDeviceDiscovery() {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.BLUETOOTH_SCAN) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         if (mBluetoothAdapter.getScanMode() == SCAN_MODE_CONNECTABLE_DISCOVERABLE && askingDiscoverable) {
             startDiscoverable(1);
             askingDiscoverable = false;
@@ -260,6 +292,15 @@ public class ControllerActivity extends AppCompatActivity {
     private void startDiscoverable(int duration) {
         Intent discoverableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
         discoverableIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, duration);
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.BLUETOOTH_ADVERTISE) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         startActivityForResult(discoverableIntent, REQUEST_BT_DISCOVERY);
         askingDiscoverable = true;
     }

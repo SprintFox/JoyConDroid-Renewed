@@ -2,7 +2,7 @@
     <string-array name="questions">
         <item>Joy-Con Droid가 제 기기에서 작동하나요?</item>
         <item>Joy-Con Droid가 제 기기에서 작동하도록 해주실 수 있나요?</item>
-        <item>Joy-Con Droid가 제 Switch에 안좋은 영향을 줄 수 있나요?</item>
+        <item>Joy-Con Droid가 제 Nintendo Switch에 안좋은 영향을 줄 수 있나요?</item>
         <item>잡는 방법/순서 변경 화면을 떠난 후 Joy-Con Droid의 연결이 끊긴다면 어떻게 해야하나요?</item>
         <item>Joy-Con Droid가 페어링 요청을 받지 못한다면 어떻게 해야하나요?</item>
         <item>입력에 지연이 있을 경우 어떻게 해야하나요?</item>
@@ -30,7 +30,7 @@
         <item>
             <![CDATA[
             <b>Joy-Con Droid</b>는 이미 많은 사람들이 사용하고 있으며, 지금까지 심각한 오류가 발생한 적은 없습니다. 
-            때때로 Switch가 멈출 수도 있지만, 이는 Switch를 재시작함으로써 해결되는 문제입니다.
+            때때로 Nintendo Switch가 멈출 수도 있지만, 이는 Switch를 재시작함으로써 해결되는 문제입니다. 
             그렇지만, <b>Joy-Con Droid</b>를 사용하면서 발생하는 모든 것에 대한 책임은 여러분에게 있습니다. <b>Joy-Con Droid</b>는 아무것도 책임지지 않습니다.
             ]]>
         </item>
@@ -52,7 +52,7 @@
             <b>잡는 방법/순서 변경</b> 화면에 있음에도 불구하고 <b>Joy-Con Droid</b>가 페어링 요청을 받지 못할 경우, 여러분이 확인해 주셔야 할 사항이 몇 가지 있습니다. 
             블루투스를 위한 기기 이름이 Joy-Con (R), Joy-Con (L), 혹은 Pro Controller로 설정되어 있는지 확인해 주세요. 
             만약 이름이 올바르게 설정되어 있을 경우, 애플리케이션을 닫은 후 <b>Joy-Con Droid</b>의 알림을 눌러 서비스를 종료시켜주세요. 
-            그 후 Switch의 <b>설정 > 컨트롤러와 센서</b>에 있는 <b>컨트롤러와의 통신 끊기</b>를 사용해 주세요. 마지막으로 기기의 블루투스를 꺼주세요 (기기를 재시작해도 좋습니다).
+            그 후 Nintendo Switch의 <b>설정 > 컨트롤러와 센서</b>에 있는 <b>컨트롤러와의 통신 끊기</b>를 사용해 주세요. 마지막으로 기기의 블루투스를 꺼주세요 (기기를 재시작해도 좋습니다). 
             위 지시 사항들을 모두 마친 후에, Switch에서 <b>잡는 방법/순서 변경</b> 화면을 열고 <b>Joy-Con Droid</b>를 켠 다음 연결을 시도해 주세요.
             ]]>
         </item>
@@ -63,9 +63,9 @@
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con Droid</b>는 Switch 펌웨어 버전 <b>9.0.0</b>까지 테스트 되었습니다.
-            <b>Joy-Con Droid</b>가 새로운 버전의 Switch 펌웨어에서 계속해서 작동할 것이라는 보장은 없습니다.
-            Switch의 펌웨어를 업데이트 하기 전에 <b>Joy-Con Droid<b>에서 지원하고 있는 펌웨어 버전을 확인해주세요.
+            <b>Joy-Con Droid</b>는 Nintendo Switch 펌웨어 버전 <b>9.0.0</b>까지 테스트 되었습니다. 
+            <b>Joy-Con Droid</b>가 새로운 버전의 Nintendo Switch 펌웨어에서 계속해서 작동할 것이라는 보장은 없습니다. 
+            Nintendo Switch의 펌웨어를 업데이트 하기 전에 <b>Joy-Con Droid<b>에서 지원하고 있는 펌웨어 버전을 확인해주세요.
             ]]>
         </item>
         <item>
@@ -85,7 +85,7 @@
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con과 Pro 컨트롤러</b>는 <b>Switch</b>에 그들의 MAC 주소를 전달합니다. 이 정보는 나중에 다시 연결하기 위해 사용됩니다.
+            <b>Joy-Con과 Pro 컨트롤러</b>는 <b>Nintendo Switch</b>에 그들의 MAC 주소를 전달합니다. 이 정보는 나중에 다시 연결하기 위해 사용됩니다. 
             하지만, <b>안드로이드 OS</b>에서 <b>Joy-Con Droid</b>와 같은 애플리케이션은 기기의 MAC 주소를 알아낼 수 없습니다. 
             그러므로 여러분께서는 연결 품질의 개선을 위해 MAC 주소를 입력하실지 말지 결정하실 수 있습니다.
             ]]>

@@ -118,6 +118,7 @@ public class ButtonMappingActivity extends AppCompatActivity implements AdapterV
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == JoystickMappingActivity.MAPPING
                 && resultCode == JoystickMappingActivity.RESULT_OK) {
             Optional<ControllerAction> controllerAction = Optional.ofNullable(data)

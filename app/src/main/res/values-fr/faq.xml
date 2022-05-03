@@ -2,11 +2,11 @@
     <string-array name="questions">
         <item>L\'application JoyCon Droid fonctionne-t-elle sur mon téléphone?</item>
         <item>Pouvez vous rendre JoyCon Droid compatible pour mon téléphone?</item>
-        <item>L\'application JoyCon Droid peut-elle nuire à ma Switch?</item>
+        <item>L\'application JoyCon Droid peut-elle nuire à ma Nintendo Switch?</item>
         <item>Que devrais-je faire si JoyCon Droid se déconnecte après avoir quitté l\'écran Changer le style/ordre?</item>
         <item>Que devrais-je faire si JoyCon Droid n\'obtient pas de requête de synchronisation?</item>
         <item>Que devrais-je faire s\'il y a une latence?</item>
-        <item>L\'application Joy-Con Droid fonctionne-t-elle avec toutes les versions de la Switch?</item>
+        <item>L\'application Joy-Con Droid fonctionne-t-elle avec toutes les versions de la Nintendo Switch?</item>
         <item>Comment puis-je demander de l\'aide ou donner des suggestions d\'ajouts ou d\'informations?</item>
         <item>Comment puis-je ajouter ma propre interface à l\'application?</item>
         <item>Pourquoi avez-vous besoin de mon adresse MAC?</item>
@@ -33,7 +33,7 @@
         <item>
             <![CDATA[
             <b>Joy-Con Droid</b> est convoité par beaucoup d\'utilisateurs et n\'a pour l\'instant causé aucun problème irréversible.
-            Il peut arriver que la Switch plante, mais un simple redémarrage corrige le problème.
+            Il peut arriver que la Nintendo Switch plante, mais un simple redémarrage corrige le problème.
             Toutefois, utilisez l\'application <b>Joy-Con Droid</b> à vos risques et périls. L\'application <b>Joy-Con Droid</b> est fournie
 			sans garantie.
             ]]>
@@ -57,7 +57,7 @@
 			vous devez procéder à plusieurs vérifications. Vérifiez que votre appareil ait été renommé en des noms appropriés pour la 
 			synchronisation, comme Joy-Con (R), Joy-Con (L), or Pro Controller.
             Si votre appareil est correctement renommé, fermez l\'application et appuyez sur la notification pour l\'arrêter entièrement.
-			Sur la Switch, allez dans Paramètres, Manettes & capteurs puis choisissez Interrompre la communication sans fil avec les manettes.
+			Sur la Nintendo Switch, allez dans Paramètres, Manettes & capteurs puis choisissez Interrompre la communication sans fil avec les manettes.
             Sur votre téléphone, désactivez le Bluetooth (il est préférable de redémarrer votre téléphone). Une fois avoir réalisé toutes ces étapes, 
 			ouvrez l\'écran <b>Changer le style/ordre</b> puis ouvrez <b>Joy-Con Droid</b> et recommencez les étapes de connexion.
             ]]>
@@ -69,9 +69,9 @@
         </item>
         <item>
             <![CDATA[
-            L\'application <b>Joy-Con Droid</b> a été testé sur les Switch allant jusqu\'à la version <b>9.0.0</b>. Il n\'est pas garanti que
+            L\'application <b>Joy-Con Droid</b> a été testé sur les Nintendo Switch allant jusqu\'à la version <b>9.0.0</b>. Il n\'est pas garanti que
             <b>Joy-Con Droid</b> continuera de fonctionner sur des versions plus récentes.
-            Vérifiez toujours sur l\'application <b>Joy-Con Droid</b> pour voir la dernière version supportée avant de mettre à jour votre console
+            Vérifiez toujours sur l\'application <b>Joy-Con Droid</b> pour voir la dernière version supportée avant de mettre à jour votre console Nintendo
 			Switch.
             ]]>
         </item>
@@ -92,7 +92,7 @@
         </item>
         <item>
             <![CDATA[
-            Les <b>Joy-Cons et la manette pro</b> envoient leur adresse MAC à la <b>Switch</b>. Cette information est utilisée pour se reconnecter,
+            Les <b>Joy-Cons et la manette pro</b> envoient leur adresse MAC à la <b>Nintendo Switch</b>. Cette information est utilisée pour se reconnecter,
 			mais sur <b>le système d\'exploitation Android</b> il n\'est pas possible d\'obtenir l\'adresse MAC d\'un appareil. C\'est donc à l\'utilisateur que revient
 			la décision de fournir son adresse MAC pour améliorer la connexion.
             ]]>

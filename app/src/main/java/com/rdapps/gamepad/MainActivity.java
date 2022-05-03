@@ -17,12 +17,14 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.net.Uri;
+
 import android.os.Bundle;
 import android.text.Editable;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -35,6 +37,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 import com.rdapps.gamepad.protocol.ControllerType;
 import com.rdapps.gamepad.service.BluetoothBroadcastReceiver;
@@ -60,13 +63,25 @@ public class MainActivity extends AppCompatActivity {
 
     private BluetoothBroadcastReceiver mBluetoothBroadcastReceiver;
 
+    MaterialCardView left_controller,right_controller,pro_controller;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main_drawer);
+
+
+
         Toolbar mainToolbar = findViewById(R.id.mainMenuToolbar);
         setSupportActionBar(mainToolbar);
+
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -85,16 +100,35 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        if (PreferenceUtils.isAdsRemoved(this)) {
-            Button remove_ad = findViewById(R.id.menu_remove_ad);
-            remove_ad.setBackgroundResource(R.drawable.ic_menu_pro_controller);
-            remove_ad.setText(R.string.custom_ui);
-        }
 
-        checkUpdate();
+        pro_controller = findViewById(R.id.menu_pro_controller);
+        pro_controller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showController(ControllerType.PRO_CONTROLLER);
+            }
+        });
+        left_controller = findViewById(R.id.menu_left_joycon);
+        left_controller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showController(ControllerType.LEFT_JOYCON);
+            }
+        });
+        right_controller = findViewById(R.id.menu_right_joycon);
+        right_controller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showController(ControllerType.RIGHT_JOYCON);
+            }
+        });
+
+
+
+        //checkUpdate();
     }
 
-    private void checkUpdate() {
+    /*private void checkUpdate() {
         try {
             if (BuildConfig.CHECK_UPDATE) {
                 VersionCheckerService versionCheckerService = VersionCheckerClient.getService();
@@ -116,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             log(TAG, e.getMessage(), true);
         }
-    }
+    }*/
 
     private void showUpdateDialog(String version) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/y"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -36,7 +36,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <Button
+        <ImageButton
             android:id="@+id/x"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -52,7 +52,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/b"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -75,7 +75,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/a"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

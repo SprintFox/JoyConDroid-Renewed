@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:showIn="navigation_view">
 
     <group android:id="@+id/custom_ui">
@@ -8,7 +9,8 @@
             android:id="@+id/action_custom_left_joycon"
             android:icon="@drawable/ic_procontroller_icon"
             android:orderInCategory="100"
-            android:title="@string/custom_ui_selection"></item>
+            android:title="@string/custom_ui_selection"
+            ></item>
     </group>
     <group android:id="@+id/mapping">
         <item
